@@ -218,3 +218,39 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==================================================
+# ALLEGRO PARAMETER DB — DANE LOKALNE
+# ==================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Bazy SQLite i kopie zapasowe
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.db
+*.db-wal
+*.db-shm
+
+# Dane produktów i kategorii
+kategorie.csv
+kategorie_unikalne.csv
+
+# Inne eksporty CSV (wyjątek: przykładowe pliki)
+*.csv
+!*.example.csv
+
+# Pliki zawierające potencjalne dane uwierzytelniające
+.env.*
+!.env.example
+*credentials*.json
+*secrets*.json
+
+# Lokalne kopie zapasowe
+*.bak
+*.backup
